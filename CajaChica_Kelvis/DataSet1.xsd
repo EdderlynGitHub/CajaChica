@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="BuscarCajaChica" msprop:Generator_TableClassName="BuscarCajaChicaDataTable" msprop:Generator_TableVarName="tableBuscarCajaChica" msprop:Generator_RowChangedName="BuscarCajaChicaRowChanged" msprop:Generator_TablePropName="BuscarCajaChica" msprop:Generator_RowDeletingName="BuscarCajaChicaRowDeleting" msprop:Generator_RowChangingName="BuscarCajaChicaRowChanging" msprop:Generator_RowEvHandlerName="BuscarCajaChicaRowChangeEventHandler" msprop:Generator_RowDeletedName="BuscarCajaChicaRowDeleted" msprop:Generator_RowClassName="BuscarCajaChicaRow" msprop:Generator_UserTableName="BuscarCajaChica" msprop:Generator_RowEvArgName="BuscarCajaChicaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_CajaC" msprop:Generator_ColumnVarNameInTable="columnID_CajaC" msprop:Generator_ColumnPropNameInRow="ID_CajaC" msprop:Generator_ColumnPropNameInTable="ID_CajaCColumn" msprop:Generator_UserColumnName="ID_CajaC" type="xs:string" minOccurs="0" />
+              <xs:element name="NDocu" msprop:Generator_ColumnVarNameInTable="columnNDocu" msprop:Generator_ColumnPropNameInRow="NDocu" msprop:Generator_ColumnPropNameInTable="NDocuColumn" msprop:Generator_UserColumnName="NDocu" type="xs:string" minOccurs="0" />
+              <xs:element name="Monto" msprop:Generator_ColumnVarNameInTable="columnMonto" msprop:Generator_ColumnPropNameInRow="Monto" msprop:Generator_ColumnPropNameInTable="MontoColumn" msprop:Generator_UserColumnName="Monto" type="xs:string" minOccurs="0" />
+              <xs:element name="Nota" msprop:Generator_ColumnVarNameInTable="columnNota" msprop:Generator_ColumnPropNameInRow="Nota" msprop:Generator_ColumnPropNameInTable="NotaColumn" msprop:Generator_UserColumnName="Nota" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaRegistro" msprop:Generator_ColumnVarNameInTable="columnFechaRegistro" msprop:Generator_ColumnPropNameInRow="FechaRegistro" msprop:Generator_ColumnPropNameInTable="FechaRegistroColumn" msprop:Generator_UserColumnName="FechaRegistro" type="xs:string" minOccurs="0" />
+              <xs:element name="FechaSistema" msprop:Generator_ColumnVarNameInTable="columnFechaSistema" msprop:Generator_ColumnPropNameInRow="FechaSistema" msprop:Generator_ColumnPropNameInTable="FechaSistemaColumn" msprop:Generator_UserColumnName="FechaSistema" type="xs:string" minOccurs="0" />
+              <xs:element name="Estatus" msprop:Generator_ColumnVarNameInTable="columnEstatus" msprop:Generator_ColumnPropNameInRow="Estatus" msprop:Generator_ColumnPropNameInTable="EstatusColumn" msprop:Generator_UserColumnName="Estatus" type="xs:string" minOccurs="0" />
+              <xs:element name="NombrePC" msprop:Generator_ColumnVarNameInTable="columnNombrePC" msprop:Generator_ColumnPropNameInRow="NombrePC" msprop:Generator_ColumnPropNameInTable="NombrePCColumn" msprop:Generator_UserColumnName="NombrePC" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
