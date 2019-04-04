@@ -37,7 +37,7 @@ namespace CajaChica_Kelvis
             InitializeComponent();
             error = new ErrorProvider();
         }
-
+        // Validar Datos
         public bool validar()
         {
             bool valor = false;
